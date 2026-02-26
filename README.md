@@ -31,7 +31,6 @@ requirements.txt
 4. If a match is found, attendance is recorded.
 5. A CSV file is created for each day.
 
-
 Press `q` to exit.
 
 ## Future Improvements
@@ -40,6 +39,6 @@ Press `q` to exit.
 - Web-based dashboard
 - Improved recognition accuracy handling
 
-## Author
+## 👨‍💻 Author
 
-ANIRUDDHA BHATTACHARYYA
+**ANIRUDDHA BHATTACHARYYA**
