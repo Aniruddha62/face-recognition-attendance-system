@@ -2,41 +2,33 @@
 
 ## Overview
 
-This project was built to automate the traditional attendance marking process using facial recognition. 
-The goal was to minimize manual errors and create a lightweight system that can identify individuals in real-time using a webcam feed.
+This project is a real-time face recognition based attendance system built using Python and OpenCV. 
+It captures live video from a webcam, detects faces, and automatically marks attendance by matching them with stored images.
 
-Instead of relying on manual roll calls or RFID systems, this solution uses computer vision techniques to detect and recognize faces and mark attendance automatically.
-
-## Why This Project?
-
-Manual attendance tracking can be time-consuming and error-prone, especially in classrooms or small organizations. I wanted to explore how computer vision could be used to simplify this process while keeping the system efficient and easy to deploy.
+The main objective was to explore practical applications of computer vision in automating manual attendance processes.
 
 ## Features
 
-- Real-time face detection using webcam
-- Face encoding and matching
-- Automatic attendance logging
-- Duplicate entry prevention
+- Real-time face detection
+- Face encoding and comparison
+- Automatic attendance marking
 - Timestamp recording
-- Simple and lightweight setup
+- Duplicate entry prevention
+- Automatic daily CSV file generation
 
-## Tech Stack
+## Project Structure
 
-- Python
-- OpenCV
-- face_recognition library
-- NumPy
-- Pandas
+images/  
+attendance_records/  
+main.py  
+requirements.txt  
 
 ## How It Works
 
-1. Images of individuals are stored and encoded.
-2. The system captures real-time video from the webcam.
-3. Detected faces are compared against stored encodings.
-4. If a match is found, attendance is recorded with a timestamp.
-5. The system ensures that attendance for the same person is not marked multiple times in one session.
+1. Store images of individuals inside the `images/` folder.
+2. The system encodes each face.
+3. Live webcam feed detects faces in real time.
+4. If a match is found, attendance is recorded.
+5. A CSV file is created for each day.
 
 ## Installation
-
-```bash
-pip install -r requirements.txt
