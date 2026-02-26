@@ -31,4 +31,15 @@ requirements.txt
 4. If a match is found, attendance is recorded.
 5. A CSV file is created for each day.
 
-## Installation
+
+Press `q` to exit.
+
+## Future Improvements
+
+- Integration with a database
+- Web-based dashboard
+- Improved recognition accuracy handling
+
+## Author
+
+ANIRUDDHA BHATTACHARYYA
